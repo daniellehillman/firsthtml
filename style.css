@@ -12,14 +12,14 @@
         h1 {
           color: blue;
           font-size: 20px;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-family: 'Press Start 2P', cursive;
           text-align: center;
         }
         body {
             background-color: aqua;
+            font-family: 'Press Start 2P', cursive;
             border: 20px solid blueviolet;
             color:coral;
-            font-style: italic;
             text-align: center;
         }
         h3 {
@@ -30,6 +30,7 @@
         }
         button {
             background-color: coral;
+            font-family: 'Press Start 2P', cursive;
             color:aqua;
             font-size: medium;
           
