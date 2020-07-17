@@ -1,0 +1,39 @@
+
+        /* #myHeading {
+          color: red
+        }
+        .green {
+          color: green
+        }
+        h1 {
+          color: blue
+        } */
+    
+        h1 {
+          color: blue;
+          font-size: 20px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          text-align: center;
+        }
+        body {
+            background-color: aqua;
+            border: 20px solid blueviolet;
+            color:coral;
+            font-style: italic;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            color: coral;
+
+
+        }
+        button {
+            background-color: coral;
+            color:aqua;
+            font-size: medium;
+          
+        }
+        
+
+    
