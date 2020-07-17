@@ -9,11 +9,31 @@
 
     <link rel="stylesheet" href="./style.css">
 
+    <style>
+      #large:hover {
+        font-size: 50px;
+      }
+      .switchsidesright:hover {
+        text-align: right;
+      }
+
+      .switchsidesleft:hover {
+        text-align: left;
+      }
+      .switchsidesright:active {
+        color:brown;
+  
+      }
+      .switchsidesleft:active {
+        color:greenyellow;
+  
+      }
+    </style>
 </head>
 <body>
   <br><br>
 
-    <h1>Back to the 90's</h1>
+    <h1 id="large">Back to the 90's</h1>
     <br><br>
 
 <img src="90s.jpg" alt="Me" width="400" height="300" >
@@ -21,40 +41,25 @@
 <br><br>
 
 
-<p>Hello, welcome back to the 90s !! </p>
+<p class="switchsidesright">Hello, welcome back to the 90s !! </p>
 
-<p>Some things "cool kids" had in the 90's</p>
+<p class="switchsidesleft">Some things "cool kids" had in the 90's</p>
 <br>
-<li>A Tamagotchi</li>
-<li>Designer Yo-Yo</li>
-<li>A blockbuster card</li>
+<li class="switchsidesright">A Tamagotchi</li>
+<li class="switchsidesleft">Designer Yo-Yo</li>
+<li class="switchsidesright">A blockbuster card</li>
 
 
 <br><br>
 
-<h3>Contact me!</h3>
-<Button>Email</Button>
-<Button>Call</Button>
+<h3 class="switchsidesleft">Contact me!</h3>
+<Button >Email</Button>
+<Button >Call</Button>
 <br><br>
-
-<!-- <table style="background-color: #D6CBC1" >
-    <tr>
-      <th>Email</th>
-      <th>Phone</th>
-    </tr>
-    <tr>
-      <td>Hillm108@mail.chapman.edu</td>
-      <td>7143357372</td>
-    </tr>
-  </table> -->
 
   <br><br>
 
-  <!-- <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-    <input type="range" id="a" value="50">
-    +<input type="number" id="b" value="25">
-    =<output name="x" for="a b"></output>
-    </form>  -->
+
 
 </body>
 </html>
